@@ -57,5 +57,7 @@ if (getToken === true) {
     });
 }
 
-
+//Any variable set in script can be accessed in Param/Authorization/Header/Body
+//Example Authorization:bearer {{currentAccessToken}}
+// Postman documentation: https://learning.postman.com/docs/postman/variables-and-environments/variables/
 
