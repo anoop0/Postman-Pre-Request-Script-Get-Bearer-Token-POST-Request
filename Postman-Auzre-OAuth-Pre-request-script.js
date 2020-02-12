@@ -16,6 +16,19 @@ const echoPostRequest = {
         	{key:'resource', value:'https://management.core.windows.net/'}
         ]
   }
+  /* If youare sending json object in body use following
+    body: {
+      mode: 'application/json',
+      raw: JSON.stringify(
+          {
+            client_id:'<your client ID>',
+            client_secret:'<your client secret>',
+            audience:'<my audience>',
+            grant_type:'client_credentials'
+          })
+    }  
+  */
+  
 };
 
 var getToken = true;
