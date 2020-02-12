@@ -40,7 +40,7 @@ var currentEpoch = Date.now() / 1000;
 //console.log('currentEpoch:: ' + currentEpoch)
  
 if (expireEpochTime === null || expireEpochTime <= currentEpoch ||  !pm.globals.get('currentAccessToken')) {
-    console.log('Token or expiry date is missing' +  pm.globals.get('accessTokenExpiry'))
+    console.log('Token or expiry date is missing' +  pm.globals.get('accessTokenExpiry'));
 } else {
     getToken = false;
     console.log('Token is alive');
