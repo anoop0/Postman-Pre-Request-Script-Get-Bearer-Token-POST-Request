@@ -2,7 +2,7 @@
 //Use your POST endopint 
 
 const echoPostRequest = {
-  url: 'https://login.microsoftonline.com/<Tenent ID>/oauth2/token',
+  url: 'https://login.microsoftonline.com/<Tenant ID>/oauth2/token',
   method: 'POST',
   header: 'Content-Type:application/json',
   body: {
