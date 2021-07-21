@@ -16,5 +16,6 @@ In above script: Authorization:bearer {{currentAccessToken}}
 
 ### Footnote: 
 I refered following blog and optimzed the code for token expiry checking and Azure OAuth 2.0
+
 Credit: https://liftcodeplay.com/2018/03/18/how-to-automatically-set-a-bearer-token-for-your-postman-requests/
 
