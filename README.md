@@ -22,7 +22,10 @@ Script sets the access token in global varaiable to used in header.
   
 ![image](https://user-images.githubusercontent.com/3315158/126467117-d67f14f5-1eb3-4af1-b11b-a320dcd3974a.png)
 
-#### In above script: Authorization:bearer {{currentAccessToken}}
+#### In above script: 
+```javascript 
+Authorization:bearer {{currentAccessToken}}
+```
 
 
 ### Footnote: 
