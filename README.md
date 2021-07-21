@@ -12,12 +12,14 @@ In above script: Authorization:bearer {{currentAccessToken}}
 
 # For Access Token flow use following
 
-> urlencoded:[
- >        	{key:'grant_type', value:'client_credentials'},
- >        	{key:'client_id', value:'<CLIENT_ID>'},
-  >       	{key:'client_secret', value:'<Secret>'},
-  >       	{key:'resource', value:'https://graph.microsoft.com/'}
-	> 	]
+```javascript
+ urlencoded:[
+        {key:'grant_type', value:'client_credentials'},
+        {key:'client_id', value:'<CLIENT_ID>'},
+       	{key:'client_secret', value:'<Secret>'},
+      	{key:'resource', value:'https://graph.microsoft.com/'}
+]
+```
   
 ![image](https://user-images.githubusercontent.com/3315158/126467117-d67f14f5-1eb3-4af1-b11b-a320dcd3974a.png)
 
