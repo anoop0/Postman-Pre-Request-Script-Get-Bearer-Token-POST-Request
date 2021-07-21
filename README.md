@@ -10,7 +10,7 @@ In above script: Authorization:bearer {{currentAccessToken}}
 
 ![image](https://user-images.githubusercontent.com/3315158/126467017-1fd17dd1-05dc-42e6-897b-51c21e21fb47.png)
 
-# For Access Token flow use following
+### For Access Token flow use following
 
 ```javascript
  urlencoded:[
