@@ -10,6 +10,15 @@ In above script: Authorization:bearer {{currentAccessToken}}
 
 ![image](https://user-images.githubusercontent.com/3315158/126467017-1fd17dd1-05dc-42e6-897b-51c21e21fb47.png)
 
+# For Access Token flow use following
+
+> urlencoded:[
+ >        	{key:'grant_type', value:'client_credentials'},
+ >        	{key:'client_id', value:'<CLIENT_ID>'},
+  >       	{key:'client_secret', value:'<Secret>'},
+  >       	{key:'resource', value:'https://graph.microsoft.com/'}
+	> 	]
+  
 ![image](https://user-images.githubusercontent.com/3315158/126467117-d67f14f5-1eb3-4af1-b11b-a320dcd3974a.png)
 
 
